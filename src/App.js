@@ -1,19 +1,12 @@
 import { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 // Visx
-import { BarGraph as VisxBar } from './charts/VisxBar';
-import VisxStackedBar from './charts/VisxStackedBar';
 
 import EnrollmentChartVisx from './charts/VisxStackedAH';
 import VisxDrag from './charts/VisxDrag';
 
-// Chart JS
-import { StackedBar as CjsStacked } from './charts/ChartJsBar';
-
 // Victory
-import VictoryTutorial from './charts/VictoryTutorial';
 import VictoryTooltipTest from './charts/VictoryTooltipTest';
 
 

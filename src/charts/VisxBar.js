@@ -4,8 +4,6 @@ import { Group } from '@visx/group';
 import { Bar } from '@visx/shape';
 import { scaleLinear, scaleBand } from '@visx/scale';
 
-import Tooltip from '../components/Tooltip.tsx'
-
 // We'll use some mock data from `@visx/mock-data` for this.
 const data = letterFrequency;
 
@@ -44,7 +42,6 @@ const yPoint = compose(yScale, y);
 export function BarGraph(props) {
   return (
     <svg width={width} height={height}>
-      <Tooltip />
       {data.map((d, i) => {
         const barHeight = yMax - yPoint(d);
         return (
