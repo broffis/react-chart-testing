@@ -29,3 +29,9 @@ Playing around with the [Visx](https://airbnb.io/visx) and [Victory Charts](http
 | - Used by fivethirtyeight | - Download the entire library to use pieces (2.52MB) |
 | - Lots of options and solid documentation |
 
+### Package size comparison
+| Name | Package Size | Notes |
+| ---- | ------------ | ----- |
+| Victory | 2.52MB | You need to download the entire library. Requires personal chunking |
+| Recharts | 5.29MB | Same as Victory, you need to install the whole library, regardless of intent/use |
+| Visx | 743.43kB | Lots of individual packages: - @visx/shape: 287kB  - @visx/group: 7.83kB - @visx/grid: 68.4kB - @visx/axis: 69.2kB - @visx/scale: 141kB - @visx/tooltip: 63.2kB - @visx/legend: 90.9kb - @visx/event: 15.9kB |
