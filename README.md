@@ -25,7 +25,7 @@ Playing around with the [Visx](https://airbnb.io/visx) and [Victory Charts](http
 | Pros | Cons |
 | ---- | ---- |
 | - Reads similar to Chart.js, one of the most popular charting libraries out there | - Can still be cumbersome |
-| - Less opinionated, leading to a shorter ramp up time | - Less flexible in some areas (adding random tooltips) |
+| - More opinionated, leading to a shorter ramp up time | - Less flexible in some areas (adding random tooltips) |
 | - Used by fivethirtyeight | - Download the entire library to use pieces (2.52MB) |
 | - Lots of options and solid documentation |
 
